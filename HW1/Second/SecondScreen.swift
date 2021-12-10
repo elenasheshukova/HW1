@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct SecondScreen: View {
-//    @State var isLinkActive: Bool = false
     
     var body: some View {
         NavigationView(){
             ListView()
                 .navigationBarTitle("Second Screen")
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 

@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct ThirdScreen: View {
-    @State private var showingSheet = false
+    @State private var isShowingSheet = false
     
     var body: some View {
         Button("Open modal screen"){
-            showingSheet.toggle()
+            isShowingSheet.toggle()
         }
-        .sheet(isPresented: $showingSheet) {
-            ModalScreen()
+        .sheet(isPresented: $isShowingSheet) {
+            ModalScreen(isShowingSheet: $isShowingSheet)
         }
         .foregroundColor(Color.white)
         .padding()
