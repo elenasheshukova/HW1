@@ -11,6 +11,13 @@
 		E7B6D2C627627E9C008E26FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B6D2C527627E9C008E26FB /* ContentView.swift */; };
 		E7B6D2C827627EA1008E26FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B6D2C727627EA1008E26FB /* Assets.xcassets */; };
 		E7B6D2CB27627EA1008E26FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B6D2CA27627EA1008E26FB /* Preview Assets.xcassets */; };
+		E7B6D2D227627FD3008E26FB /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B6D2D127627FD3008E26FB /* FirstScreen.swift */; };
+		E7B6D2D427627FE3008E26FB /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B6D2D327627FE3008E26FB /* SecondScreen.swift */; };
+		E7B6D2D62762800C008E26FB /* ThirdScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B6D2D52762800C008E26FB /* ThirdScreen.swift */; };
+		E7B6D2D82762848C008E26FB /* ListItemScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B6D2D72762848C008E26FB /* ListItemScreen.swift */; };
+		E7B6D2DA27633B76008E26FB /* ModalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B6D2D927633B76008E26FB /* ModalScreen.swift */; };
+		E7B6D2E127635540008E26FB /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B6D2E027635540008E26FB /* ListViewModel.swift */; };
+		E7B6D30427638BF8008E26FB /* UIKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B6D30327638BF8008E26FB /* UIKitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		E7B6D2C527627E9C008E26FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E7B6D2C727627EA1008E26FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7B6D2CA27627EA1008E26FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E7B6D2D127627FD3008E26FB /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
+		E7B6D2D327627FE3008E26FB /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
+		E7B6D2D52762800C008E26FB /* ThirdScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdScreen.swift; sourceTree = "<group>"; };
+		E7B6D2D72762848C008E26FB /* ListItemScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemScreen.swift; sourceTree = "<group>"; };
+		E7B6D2D927633B76008E26FB /* ModalScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalScreen.swift; sourceTree = "<group>"; };
+		E7B6D2E027635540008E26FB /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		E7B6D30327638BF8008E26FB /* UIKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,9 @@
 			children = (
 				E7B6D2C327627E9C008E26FB /* HW1App.swift */,
 				E7B6D2C527627E9C008E26FB /* ContentView.swift */,
+				E7B6D2DB276342A4008E26FB /* First */,
+				E7B6D2DC276342AF008E26FB /* Second */,
+				E7B6D2DD276342BC008E26FB /* Third */,
 				E7B6D2C727627EA1008E26FB /* Assets.xcassets */,
 				E7B6D2C927627EA1008E26FB /* Preview Content */,
 			);
@@ -65,6 +82,34 @@
 				E7B6D2CA27627EA1008E26FB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E7B6D2DB276342A4008E26FB /* First */ = {
+			isa = PBXGroup;
+			children = (
+				E7B6D2D127627FD3008E26FB /* FirstScreen.swift */,
+				E7B6D30327638BF8008E26FB /* UIKitView.swift */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		E7B6D2DC276342AF008E26FB /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				E7B6D2D327627FE3008E26FB /* SecondScreen.swift */,
+				E7B6D2E027635540008E26FB /* ListViewModel.swift */,
+				E7B6D2D72762848C008E26FB /* ListItemScreen.swift */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		E7B6D2DD276342BC008E26FB /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				E7B6D2D52762800C008E26FB /* ThirdScreen.swift */,
+				E7B6D2D927633B76008E26FB /* ModalScreen.swift */,
+			);
+			path = Third;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +182,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7B6D2DA27633B76008E26FB /* ModalScreen.swift in Sources */,
+				E7B6D2D82762848C008E26FB /* ListItemScreen.swift in Sources */,
 				E7B6D2C627627E9C008E26FB /* ContentView.swift in Sources */,
+				E7B6D2D427627FE3008E26FB /* SecondScreen.swift in Sources */,
+				E7B6D2E127635540008E26FB /* ListViewModel.swift in Sources */,
+				E7B6D2D62762800C008E26FB /* ThirdScreen.swift in Sources */,
+				E7B6D30427638BF8008E26FB /* UIKitView.swift in Sources */,
 				E7B6D2C427627E9C008E26FB /* HW1App.swift in Sources */,
+				E7B6D2D227627FD3008E26FB /* FirstScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
